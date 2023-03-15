@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ 
+}
+body{
+    background-color: black;
+}
+.container{
+    margin: auto;
+background-color: black;
+width:100%;
+height: 100%;
+text-align: center;
+}
+.container h2{
+    font-size: 2rem;
+    text-align: center;
+    color:white;
+    
+    padding-top: 20px;
+}
+.buttons{
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   box-sizing: border-box;
+  
+}
+button{
+    width: 100%;
+    height:100px;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+}
+#scissors{
+    display: none;
+}
+#Paper{
+    display: none;
+}
+.fa-solid {
+    font-size: 3rem;
+    color:royalblue;
+}
+.window{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.window p{
+    color: white;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+.versus{
+    padding-top: 50px;
+    color:white;
+}
+.stone i{
+font-size: 5rem;
+}
+.winner{
+    color: white;
+    margin-top: 50px;
+}
+#Paper1{
+    display: none;
+}
+#scissors1{
+    display: none;
+}
+.score{
+    margin-top:20px ;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid white;
+}
+.yourScore p,.draw p,.computerscore p{
+    color:white;
+    font-size: 2rem;
+}
+.yourScore h2,.draw h2,.computerscore h2{
+    color:white;
+    font-size: 1rem;
+}
+.yourScore p,.draw p,.computerscore p{
+    color:white;
+    font-size: 2rem;
+}
+.yourScore,.draw,.computerscore{
+
+    border: 1px solid white;
+    width: 100%;
+}
+.fa-hand-fist{
+    color:darkmagenta;
+    text-shadow: 1px 1px 10px darkmagenta;
+}
+.fa-hand-scissors{
+    color:goldenrod;
+    text-shadow: 1px 1px 10px goldenrod;
+}
+.fa-hand{
+    color:royalblue;
+    text-shadow: 1px 1px 10px blue;
+}
